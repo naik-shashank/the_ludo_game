@@ -1,0 +1,146 @@
+#container{
+    margin-top: 70px;
+}
+.box{
+    
+    width: 210px;
+    height: 210px;
+}
+.box1{
+    background-color:rgb(201, 38, 38);
+}
+.box2{
+    width: 152px;
+    height: 152px; 
+    background-color: whitesmoke;
+    margin-left: 29px;
+    
+}
+.inner1{
+    width: 38px; 
+    height:38px; 
+    margin-left: 19px;
+    display: grid;
+    place-items: center;
+}
+.inner2{
+    width: 38px; 
+    height:38px;
+    margin-left: 38px;
+    display: grid;
+    place-items: center;
+}
+.mid{
+    background-color: white; 
+    height: 33px;
+    width: 33px;
+    margin-top: 1px;
+    display: grid;
+    place-items: center;
+}
+.gatta{
+    background-color: gray; 
+    height: 33px;
+    width: 33px;
+    margin-top: 1px;
+}
+.piece{
+    height:10px;
+    width:10px;
+    background-color: palevioletred;
+    border-radius: 50%;
+
+}
+.gattaBox{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+}
+.kayi{
+    height:38px;
+    width: 38px;
+    border-radius: 50%;
+}
+div[type="R"]{
+    background-color: darkred;
+}
+div[type="G"]{
+    background-color: darkgreen;
+}
+div[type="Y"]{
+    background-color: darkgoldenrod;
+}
+div[type="B"]{
+    background-color: darkblue;
+}
+div[home="B"]{
+    background-color: rgb(65, 137, 161);
+}
+div[home="R"]{
+    background-color: rgb(228, 69, 69);
+
+}
+div[home="Y"]{
+    background-color: rgb(206, 194, 33);
+}
+div[home="G"]{
+    background-color: rgb(87, 196, 87);;
+}
+
+.vroad{
+    background-color: white; 
+    height: 33px;
+    width: 33px;
+    margin-top: 1px;
+}
+#die{
+    
+    height: 38px; width:38px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+.dieholder{
+    height: 38px; width:38px;
+    display: grid;
+    place-items: center;
+}
+
+
+#demo
+{
+ height:10px;
+ width: 10px;
+}
+
+.box3
+{
+    width: 152px;
+    height: 152px; 
+    background-color: whitesmoke;
+    margin-left: 29px;
+    font-weight: bold;
+    font-size: small;
+    color: orange;
+    
+}
+
+.win
+{
+ padding-top: 60;
+ visibility: hidden;
+ font-size: 0;
+}
+.vbox{
+    height: 16.5px;
+    width: 16.5px;
+    display: grid;
+    place-items: center;
+   
+}
+.vhold
+{
+ display: flex; 
+ height: 16.5px;
+ width: 33px;
+}
